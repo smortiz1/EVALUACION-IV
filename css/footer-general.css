@@ -1,0 +1,215 @@
+.footer-general{
+    margin-top: 4rem;
+    height: 60rem;
+}
+
+.linea-gris{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: auto;
+    margin: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.linea-img{
+    height: auto;
+    width: 45%;
+}
+
+.linea-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.linea-texto{
+    width: 55%;
+    padding-left: 3.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linea-texto h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color5);
+}
+
+.boton4{
+    text-decoration: none;
+    display: block;
+    width: 9rem;
+    height: 3rem;
+    background-color: var(--color5);
+    color: var(--color1);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*este es el que cambias para poder hacer que el footer se ponga en row*/
+
+.footer-text{
+    padding: 5rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+}
+
+
+/*---------aqui sigue elk footer----------*/
+
+.footer-general{height: auto;
+}
+
+.footer-parte1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.c-logo2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+
+}
+
+.c-logo2 p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0 0 0 1rem;
+    color: var(--color5);
+}
+
+.socials-logos{
+    height: 2rem;
+    width: 8rem;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.c-logo2{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.c-logo2 p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0 0 0 1rem;
+    color: var(--color5);
+}
+
+.c-logo2 img{
+    width: 2rem;
+}
+
+.texto-final{
+    color: var(--color5);
+}
+
+.socials-logos{
+    margin-top: 1.6rem;
+}
+
+.social1, .social2, .social3{
+    width: 8rem;
+    height: 2rem;
+}
+
+.social1 img {
+    margin-top: 0.18rem;
+    width: 1.4rem;
+    height: auto;
+}
+
+.social2 img, .social3 img{
+    width: 1.4rem;
+    height: auto;
+}
+
+.footer-parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 3rem;
+}
+
+.footer-parte2 p{
+    color: var(--color5);
+}
+
+.columna1-titulo, .columna2-titulo, .columna3-titulo{
+    font-weight: 800;
+}
+
+.copy{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy p{
+    color: var(--color5);
+}
+
+@media only screen and (min-width: 1000px){
+    .footer-general{
+        margin-top: 10rem;
+    }
+
+    .footer-general p{
+        font-size: 1.3rem;
+    }
+    
+    .linea-texto h1{
+        font-size: 6rem;
+        font-weight: 800;
+        color: var(--color5);
+    }
+    
+    .boton4{
+        width: 11rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+    
+    .footer-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4rem;
+    }
+
+    .footer-parte1{
+        width: 45%;
+    }
+
+    .footer-parte2{
+        width: 55%;
+    }
+}

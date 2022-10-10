@@ -1,0 +1,78 @@
+header{
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.c-logo p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 0 0 0 1rem;
+    color: var(--color5);
+}
+
+header .logo{
+    width: 2rem;
+}
+
+.menu{
+    width: 100%;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    color: var(--color5);
+}
+
+.boton1{
+    text-decoration: none;
+    display: block;
+    width: 13rem;
+    height: 3.4rem;
+    background-color: var(--color5);
+    color: var(--color1);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1000px){
+header{
+    width: 80%;
+    margin: auto;
+    padding: 1rem 5rem;
+    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10em;
+}
+
+.menu{
+    width: 61rem;
+    }
+}

@@ -1,0 +1,139 @@
+.about-us{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+}
+
+.contenido2{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.contenido2 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--color2);
+}
+
+.contenido2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.contenedoor{
+    height: 24rem;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido3{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido3 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color2);
+}
+
+.contenido3 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.no1, .no2, .no3, .no4{
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    width: 10rem;
+    height: 4rem;
+}
+
+.contenido4{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido4 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color2);
+}
+
+.contenido4 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+@media only screen and (min-width: 1000px){
+    .about-us{
+        margin-top: 6rem;
+        padding: 1rem 8rem;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenido2{
+        width: 60%;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+    
+    .contenido2 h3{
+        font-size: 4rem;
+    }
+    
+    .contenido2 p{
+        font-size: 1.3rem;
+    }
+    
+    .contenedoor{
+        width: 40%;
+        margin-left: 10rem;
+    }
+
+    .contenido3{
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .contenido3 h3{
+        font-size: 2.8rem;
+    }
+    
+    .contenido3 p{
+        font-size: 1.3rem;
+    }
+    
+    .no1, .no2, .no3, .no4{
+        width: 14rem;
+    }
+    
+    .contenido4 h3{
+        font-size: 2.8rem;
+    }
+    
+    .contenido4 p{
+        font-size: 1.3rem;
+    }
+}

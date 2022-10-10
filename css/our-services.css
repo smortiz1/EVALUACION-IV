@@ -1,0 +1,154 @@
+.our-services{
+    padding: 1rem 2rem;
+}
+
+.imagen2 img{
+    width: 100%;
+}
+
+.contenido5{
+    margin-top: 2rem;
+}
+
+.contenido5 h3{
+    font-size: 2.2rem;
+}
+
+.contenido5 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.cuadros{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido6{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenido6 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--color2);
+}
+
+.contenido6 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.contenido7{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenido7 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--color2);
+}
+
+.contenido7 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.no-1, .no-2, .no-3, .no-4{
+    height: 10rem;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 1000px){
+    .our-services{
+        margin-top: 6rem;
+        padding: 1rem 0;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenido5-general{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+
+        margin-left: 8rem;
+    }
+
+
+    .imagen2{
+        width: 40%;
+    }
+    
+    .imagen2 img{
+        width: 100%;
+    }
+
+    .contenido5{
+        margin-left: 0;
+    }
+    
+    .contenido5 h3{
+        font-size: 4rem;
+    }
+    
+    .contenido5 p{
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: var(--color2);
+    }
+
+    .cuadros{
+        width: 100%;
+        height: auto;
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contenido6{
+        width: 46rem;
+    }
+    
+    .contenido6 h3{
+        font-size: 2.8rem;
+    }
+    
+    .contenido6 p{
+        font-size: 1.3rem;
+    }
+    
+    .contenido7{
+        width: 46rem;
+    }
+    
+    .contenido7 h3{
+        font-size: 2.8rem;
+    }
+    
+    .contenido7 p{
+        font-size: 1.3rem;
+    }
+    
+    .no-1, .no-2, .no-3, .no-4{
+        width: auto;
+        height: 10rem;
+        margin: 1rem;
+    }
+}

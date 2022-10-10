@@ -1,0 +1,156 @@
+.our-word{
+    margin-top: 1.6rem;
+    padding: 1rem 2rem;
+}
+
+.contenido11 h3{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: var(--color2);
+}
+
+.contenido11 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.boton3{
+    text-decoration: none;
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    background-color: var(--color5);
+    color: var(--color1);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario-1{
+    width: 32rem;
+    height: 16rem;
+    padding: 0 2rem 2rem 1rem;
+    margin: auto;
+    margin-top: 3rem;
+
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    background-color: rgb(255, 255, 255);
+}
+
+.comillas{
+    width: 26rem;
+}
+
+.comillas img{
+    width: 5rem;
+    margin-left: 90%;
+}
+
+.comentario-1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color2);
+}
+
+.comentador{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.comentador img{
+    width: 2rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+}
+
+.comentador h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: var(--color2);
+}
+
+.comentario-2{
+    width: 32rem;
+    height: 16rem;
+    padding: 0 2rem 2rem 1rem;
+    margin: auto;
+    margin-top: 3rem;
+
+    -webkit-box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.11);
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 1000px){
+    .our-word{
+        margin-top: 4rem;
+        padding: 1rem 2rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contenido11{
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contenido11 h3{
+        font-size: 4rem;
+    }
+    
+    .contenido11 p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--color2);
+    }
+    
+    .boton3{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .comillas{
+        width: auto;
+    }
+    
+    .comillas img{
+        width: 5rem;
+        margin-left: 90%;
+    }
+
+    .comentarios{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .comentario-1{
+        width: 38rem; 
+    }
+    
+    .comentario-2{
+        width: 38rem
+    }
+}
